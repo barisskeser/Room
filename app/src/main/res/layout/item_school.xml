@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tvSchoolName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:textStyle="bold"
+        tools:text="1: University"
+        android:focusable="true" />
+
+</FrameLayout>
